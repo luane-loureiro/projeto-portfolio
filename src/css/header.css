@@ -1,0 +1,82 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.title{
+    text-align: center;
+    font-family: "NeueMachina-Regular";
+}
+
+.informations{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+ }
+
+ .informations p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .5rem;
+    font-size: 1.125rem;
+ }
+
+ .informations p::before{
+   content: " ";
+   display: inline-block;
+   width: 1rem;
+   height: 1rem;
+   background-repeat:no-repeat;
+   background-size: contain;
+   margin-right: .5rem;
+ }
+
+.informations .job::before{
+   background-image: url(/src/img/icon__2.png)
+}
+
+.informations .local::before{
+   background-image: url(/src/img/icon__4.png)
+}
+
+.informations .tell::before{
+   background-image: url(/src/img/icon__3.png)
+}
+.informations .mail::before{
+   background-image: url(/src/img/icon__1.png)
+}
+
+
+@media only screen and (min-width: 768px) {
+    .header {
+        display:grid;
+        grid-template-areas: 
+        "photo title" 
+        "photo information" ;
+    }
+
+    .header .photo {
+        grid-area: photo;
+        margin: 2rem auto;
+    }
+
+    .header .title {
+        grid-area: title;
+        text-align: start;
+        max-width: 210px;
+    }
+
+    .header .information {
+        grid-area: information;
+    }
+}
