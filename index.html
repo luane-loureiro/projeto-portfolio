@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="src/css/global.css"/>    
     <link rel="stylesheet" href="src/css/header.css"/>
     <link rel="stylesheet" href="src/css/acordeon.css"/>
-
+    <link rel="stylesheet" href="src/css/languages.css"/>
+    <link rel="stylesheet" href="src/css/projects.css"/>
 </head>
 <body>
     <main class="main">
@@ -27,19 +28,27 @@
         <h1 class="title">Luane Loureiro</h1>
 
         <div class="informations">
-            <p class="job">front-end Developer Junior</p>
+            <p class="job">
+                <a href="https://www.linkedin.com/in/luane-loureiro/">front-end Developer Junior</a> 
+            </p>
             <p class="local">Rio de Janeiro - Br</p>
-            <p class="tell">(21)99473-6215</p>
-            <p class="mail">Luachan@gmail.com</p>
+            <p class="tell">
+                <a href="tel:(21)99473-6215">(21)99473-6215</a>
+            </p>
+            <p class="mail">
+                <a href="mailto:luachan@gmail.com">Luachan@gmail.com</a> 
+            </p>
         </div>  
     </header>
+
     <section class="acordeon">
+        
         <button class="trigger" type="button">
                 Idiomas
         </button>
 
         <div class="content">
-            <ul>
+            <ul class="languages">
                 <li>Português</li>
                 <li>Inglês</li>
                 <li>Japonês</li>
@@ -47,6 +56,33 @@
         </div>
 
     </section>
+
+
+    <section class="acordeon">
+        
+        <button class="trigger" type="button">
+                Projects
+        </button>
+        <div class="content">
+            <ul class="projects">
+                <li>
+                    <span class="title github"><h3>Pokedex</h3></span>
+                    <a href="https://github.com/luane-loureiro/js-developer-pokedex-main">https://github.com/luane-loureiro/Pokedex</a>
+                </li>
+                <li>
+                    <span class="title github"><h3>Detona Ralph Game</h3></span>
+                    <a href="https://github.com/luane-loureiro/js-developer-pokedex-main">https://github.com/luane-loureiro/Pokedex</a>
+                </li>
+                <li>
+                    <span class="title github"><h3>Yugioh Jokenpo</h3></span>
+                    <a href="https://github.com/luane-loureiro/js-developer-pokedex-main">https://github.com/luane-loureiro/Pokedex</a>
+                </li>
+            </ul>
+
+        </div>
+
+    </section>
+
 </main>
 
 <script src="/src/scripts/acordeon.js"></script>
