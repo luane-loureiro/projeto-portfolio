@@ -9,27 +9,27 @@
     "hardSkills": [
       {
         "name": "HTML5",
-        "logo": "https://github.com/luane-loureiro/portfolio-js-developer/blob/main/data/imgs/html5.png"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/portfolio-js-developer/main/data/imgs/html5.png"
       },
       {
         "name": "Java Script",
-        "logo": "https://github.com/luane-loureiro/portfolio-js-developer/blob/main/data/imgs/javascript.png"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/portfolio-js-developer/main/data/imgs/javascript.png"
       },
       {
         "name": "Angular",
-        "logo": "https://github.com/luane-loureiro/portfolio-js-developer/blob/main/data/imgs/angular.png"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/portfolio-js-developer/main/data/imgs/angular.png"
       },
       {
         "name": "CSS3",
-        "logo": "https://github.com/luane-loureiro/portfolio-js-developer/blob/main/data/imgs/css.png"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/portfolio-js-developer/main/data/imgs/css.png"
       },
       {
         "name": "AWS",
-        "logo": "https://github.com/luane-loureiro/portfolio-js-developer/blob/main/data/imgs/aws.png"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/portfolio-js-developer/main/data/imgs/aws.png"
       },
       {
         "name": "Type Script",
-        "logo": "https://github.com/luane-loureiro/portfolio-js-developer/blob/main/data/imgs/typescript.png"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/portfolio-js-developer/main/data/imgs/typescript.png"
       }
     ],
     "softSkills": [
