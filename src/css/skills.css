@@ -17,6 +17,7 @@
     max-width: 50px;
     max-height: 50px;
     margin: .5rem;
+    filter: brightness(5);
 }
 
 .skills .softSkills ul{
