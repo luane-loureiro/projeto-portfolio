@@ -21,15 +21,15 @@
       },
       {
         "name": "CSS3",
-        "logo": "ttps://github.com/luane-loureiro/portfolio-js-developer/blob/main/data/imgs/CSS.png"
+        "logo": "https://github.com/luane-loureiro/portfolio-js-developer/blob/main/data/imgs/css.png"
       },
       {
         "name": "AWS",
-        "logo": "https://github.com/luane-loureiro/portfolio-js-developer/blob/main/data/imgs/AWS.png"
+        "logo": "https://github.com/luane-loureiro/portfolio-js-developer/blob/main/data/imgs/aws.png"
       },
       {
         "name": "Type Script",
-        "logo": "https://github.com/luane-loureiro/portfolio-js-developer/blob/main/data/imgs/typeScript.png"
+        "logo": "https://github.com/luane-loureiro/portfolio-js-developer/blob/main/data/imgs/typescript.png"
       }
     ],
     "softSkills": [

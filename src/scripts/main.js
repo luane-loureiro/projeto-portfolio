@@ -24,7 +24,7 @@ function updateProfileInfo(profileData) {
 
 function updateHardSkills(profileData) {
     const hardSkills = document.getElementById('profile.skills.hardSkills')
-    hardSkills.innerHTML = profileData.skills.hardSkills.map(skills => `<li><img src="${skills.logo}" alt="${skills.name}" title="${skills.name}"></li>`).join('')
+    hardSkills.innerHTML = profileData.skills.hardSkills.map(hardSkills => `<li><img src="${hardSkills.logo}" alt="${hardSkills.name}" title="${hardSkills.name}"></li>`).join('')
 }
 
 function updateSoftSkills(profileData) {
