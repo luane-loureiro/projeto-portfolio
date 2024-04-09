@@ -51,7 +51,7 @@
    filter: brightness(5);
 }
 
-.informations .tell::before{
+.informations .phone::before{
    background-image: url(/src/img/icon__3.png);
    filter: brightness(5);
 }

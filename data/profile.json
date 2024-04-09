@@ -4,12 +4,12 @@
   "job": "Front-End Developer JR",
   "location": "Rio de Janeiro / RJ",
   "phone": "(21) 99473-6215",
-  "email": "luachan4@gmail.com",
+  "email": "luachan@gmail.com",
   "skills": {
     "hardSkills": [
       {
         "name": "HTML5",
-        "logo": "../src/img/html5.png"
+        "logo": "/imgs/html5.png"
       },
       {
         "name": "Java Script",
