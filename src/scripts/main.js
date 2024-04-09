@@ -34,8 +34,9 @@ function updateSoftSkills(profileData) {
 
 function updateLanguages(profileData) {
     const languages = document.getElementById('profile.languages')
-    languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('')
+    languages.innerHTML = profileData.languages.map(language =>`<li>${language}</li>`).join('')
 }
+
 
 function updatePortfolio(profileData) {
     const portfolio = document.getElementById('profile.portfolio')
@@ -45,11 +46,22 @@ function updatePortfolio(profileData) {
                 <h3 ${project.github ? 'class="github"' : ''}>${project.title}</h3>
                 <h4>${project.name}</h4>
                 <a href="${project.url}" target="_blank">${project.url}</a>
-            </li>
-            <br><br>
+
         `
     }).join('')
 }
+
+function updateDescriptions(profileData) {
+    const Descriptions = document.getElementById('profile.Descriptions')
+    Descriptions.innerHTML = profileData.Descriptions.map(description =>{
+        return`
+            <li>${description}</li>
+        </li>
+        <br><br>
+        `
+    }).join('')
+}
+
 
 function updateProfessionalExperience(profileData) {
     const professionalExperience = document.getElementById('profile.professionalExperience')
@@ -57,9 +69,10 @@ function updateProfessionalExperience(profileData) {
         return `
             <li>
                 <h3 class="title">${experience.name}</h3>
-                <p class="period">${experience.period}</p>
-                <li>${experience.description}</li>
+                <p class="date">${experience.period}</p>
+                <p class="description">${experience.description.join('<br><br>')}</p>
             </li>
+            <br><br>
         `
     }).join('')
 }
