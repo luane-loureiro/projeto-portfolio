@@ -9,27 +9,27 @@
     "hardSkills": [
       {
         "name": "HTML5",
-        "logo": "/imgs/html5.png"
+        "logo": "https://github.com/luane-loureiro/portfolio-js-developer/blob/main/data/imgs/html5.png"
       },
       {
         "name": "Java Script",
-        "logo": "/imgs/javascript.png"
+        "logo": "https://github.com/luane-loureiro/portfolio-js-developer/blob/main/data/imgs/javascript.png"
       },
       {
         "name": "Angular",
-        "logo": "/imgs/angular.png"
+        "logo": "https://github.com/luane-loureiro/portfolio-js-developer/blob/main/data/imgs/angular.png"
       },
       {
         "name": "CSS3",
-        "logo": "/imgs/CSS.png"
+        "logo": "ttps://github.com/luane-loureiro/portfolio-js-developer/blob/main/data/imgs/CSS.png"
       },
       {
         "name": "AWS",
-        "logo": "/imgs/AWS.png"
+        "logo": "https://github.com/luane-loureiro/portfolio-js-developer/blob/main/data/imgs/AWS.png"
       },
       {
         "name": "Type Script",
-        "logo": "/imgs/typeScript.png"
+        "logo": "https://github.com/luane-loureiro/portfolio-js-developer/blob/main/data/imgs/typeScript.png"
       }
     ],
     "softSkills": [
