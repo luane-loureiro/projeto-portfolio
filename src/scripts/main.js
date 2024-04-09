@@ -42,9 +42,11 @@ function updatePortfolio(profileData) {
     portfolio.innerHTML = profileData.portfolio.map(project => {
         return `
             <li>
-                <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>
+                <h3 ${project.github ? 'class="github"' : ''}>${project.title}</h3>
+                <h4>${project.name}</h4>
                 <a href="${project.url}" target="_blank">${project.url}</a>
             </li>
+            <br><br>
         `
     }).join('')
 }
@@ -56,7 +58,7 @@ function updateProfessionalExperience(profileData) {
             <li>
                 <h3 class="title">${experience.name}</h3>
                 <p class="period">${experience.period}</p>
-                <p>${experience.description}</p>
+                <li>${experience.description}</li>
             </li>
         `
     }).join('')
